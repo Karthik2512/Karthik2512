@@ -1,4 +1,6 @@
-@Library('jenkins@masters')_
+libraries {
+ lib{jenkins}
+}
 
 pipeline{
  stages{
