@@ -1,4 +1,4 @@
-@Library('pipeline-library-demo')_
+@Library('jenkins')_
 
  stage('Demo') {
      echo 'Hello world'
