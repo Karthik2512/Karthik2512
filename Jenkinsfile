@@ -1,4 +1,4 @@
-@Library('jenkins')_
+@Library('jenkins@masters')_
 
  stage('Demo') {
      echo 'Hello world'
