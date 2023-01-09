@@ -1,4 +1,4 @@
-libraries {
+/*libraries {
  lib{'jenkins'}
 }
 
@@ -12,4 +12,10 @@ pipeline{
     }
    }
   }
+ }*/
+@Library('jenkins')_
+
+ stage('Demo') {
+     echo 'Hello world'
+     groovyOne 'Alex'
  }
