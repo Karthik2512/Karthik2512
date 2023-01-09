@@ -7,7 +7,7 @@ pipeline{
  stages{
   stage('Demo') {
       echo 'Hello world'
-    Groovyone 'Krishna'
+    groovyOne 'Krishna'
    }
   }
  }
