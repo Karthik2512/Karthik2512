@@ -1,5 +1,5 @@
 libraries {
- lib{jenkins}
+ lib{'jenkins'}
 }
 
 pipeline{
