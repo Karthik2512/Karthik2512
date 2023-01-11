@@ -1,4 +1,4 @@
-@Library('jenkins')_
+@Library('javahome-demo')_
 
 pipeline{
  agent any
