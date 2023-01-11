@@ -1,6 +1,4 @@
-/*libraries {
- lib{'jenkins'}
-}
+@Library('jenkins')_
 
 pipeline{
  agent any
@@ -8,14 +6,8 @@ pipeline{
   stage('Demo') {
    steps {
       echo 'Hello world'
-    groovyOne 'Krishna'
+    welcome 'Krishna'
     }
    }
   }
- }*/
-@Library('jenkins')_
-
- stage('Demo') {
-     echo 'Hello world'
-     groovyOne 'Alex'
  }
